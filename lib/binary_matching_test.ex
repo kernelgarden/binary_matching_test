@@ -5,6 +5,10 @@ defmodule BinaryMatchingTest do
 
   alias BinaryMatchingTest.BinaryUtil
 
+  @doc """
+  Inspired from (https://www.openmymind.net/Elixir-Binary-Matching-Performance/)
+  Spec Document - (http://erlang.org/doc/efficiency_guide/binaryhandling.html)
+  """
   def test do
     bin = BinaryUtil.make_message(<<1>>)
 
